@@ -1,10 +1,7 @@
-{
-    outline: 1px solid rgba(255,0,0,0.7);
-    
-}
+
 
 .page-wrapper{
-      outline: 1px solid rgba(0,255,0,0.7);
+      outline: 1px solid rgba(0,0,0,0.0);
         
 }
 
@@ -47,7 +44,7 @@ h2{
 }
 
 h2:hover{
-    color: rgb(230,65,0);
+    color: rgb(100,65,0);
     font-size: 30px;
     transition: 02s
     
