@@ -32,19 +32,24 @@ p{
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
-    font-family: sans-serif;
+   font-family: 'Lobster', cursive;
     font-size: 80px;
+      
 }
+
+
+
+
 
 h2{
     text-align: center;
-    font-family: verdana;
+    font-family: 'Pacifico', cursive;
     letter-spacing: 3px;
     font-size: 20px;
 }
 
 h2:hover{
-    color: rgb(100,65,0);
+    color: #A14A4A;
     font-size: 30px;
     transition: 02s
     
@@ -59,6 +64,7 @@ h2:hover{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
         
 }
 
@@ -66,8 +72,11 @@ h2:hover{
     text-align: center;
     letter-spacing: 3px; 
     font-weight: 300;
+   
+    
     
 }
+
 
 .preamble{
     
@@ -80,8 +89,16 @@ h2:hover{
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 42px;
-}
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
+    background: rgba(255,255,255,0.6);
+    background-image: initial;
+     
+    }
 
+.preamble p{
+   
+    font-family: 'Lobster', cursive;
+}
 .explanation {	
 	 width: 850px;
     border: 1px solid gray;
@@ -89,12 +106,15 @@ h2:hover{
     text-align: justify;
     margin-right: auto;
     margin-left: auto;
-    opacity: 0.7;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 42px;
-    
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
 	}
+
+.explanation p{
+    font-family: 'Lobster', cursive;
+}
 .participation{
      width: 850px;
     border: 1px solid gray;
@@ -102,11 +122,17 @@ h2:hover{
     text-align: justify;
     margin-right: auto;
     margin-left: auto;
-    
-    opacity: 0.7;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 42px;
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
+    background: rgba(255,255,255,0.6);
+    background-image: initial;
+   
+}
+
+.participation p{
+    font-family: 'Lobster', cursive;
 }
 
 .benefits {
@@ -116,12 +142,15 @@ h2:hover{
     text-align: justify;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
     
-    opacity: 0.7;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 42px;
     
+}
+.benefits p{
+    font-family: 'Lobster', cursive;
 }
 
 .requirements{
@@ -131,14 +160,22 @@ h2:hover{
     text-align: justify;
     margin-right: auto;
     margin-left: auto;
-    opacity: 0.7;
-    padding-left: 5px;
-    padding-right: 5px;
+    background: rgba(255,255,255,0.6);
+    background-image: initial;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 42px;
+    box-shadow: 0 5px 40px rgba(0,0,0,0.4);
 }
 
+.requirements p{
+    font-family: 'Lobster', cursive;
+}
+
+
+
 h3{
-    font-family:serif;
+    font-family: 'Pacifico', cursive;
     font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -155,7 +192,6 @@ footer a:link, footer a:visited {
 	}
 
 .sidebar {
-	margin-left: 600px; 
 	position: absolute; 
 	top: 0; 
 	right: 0;
@@ -171,5 +207,15 @@ footer a:link, footer a:visited {
 	margin-top: 150px; 
 	width: 150px; 
     display: inline-block;
-    font-size: 11px;
+    font-size: 12px;
 	}
+
+a{
+    color:  #A14A4A;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkslateblue;
+    
+}
