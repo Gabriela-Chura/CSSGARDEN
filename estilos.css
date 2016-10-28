@@ -186,9 +186,13 @@ h3{
 
 footer { 
 	text-align: center; 
+    font-size: 20px;4
+   
 	}
+
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
+    font-family: 'Pacifico', cursive;
 	}
 
 .sidebar {
